@@ -11,7 +11,7 @@ class Article extends Model
     use Sluggable;
     use HasFactory;
 
-    protected $fillable =[
+    protected $fillable = [
         'title', 'body'
     ];
 
@@ -19,9 +19,9 @@ class Article extends Model
     {
 
         return [
-          'slug' => [
-              'source' => 'title'
-          ]
+            'slug' => [
+                'source' => 'title'
+            ]
         ];
 
     }
