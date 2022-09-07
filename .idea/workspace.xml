@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_06_205815_create_articles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_06_205815_create_articles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_091747_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_091747_create_courses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_104225_create_episodes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_104225_create_episodes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnShop/app/Models/permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_114021_create_permissions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Controllers/web/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Controllers/web/Admin/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Controllers/web/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Controllers/web/Admin/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Controllers/web/EpisodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Controllers/web/Admin/EpisodeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +169,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PHP\Laravel\LearnShop\LearnShop\app\Http\Controllers\web\Admin" />
       <recent name="D:\PHP\Laravel\LearnShop\LearnShop\app\Http\Controllers\web" />
     </key>
   </component>
@@ -186,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662541986980</updated>
-      <workItem from="1662542013525" duration="5575000" />
+      <workItem from="1662542013525" duration="6064000" />
     </task>
     <servers />
   </component>
