@@ -121,7 +121,7 @@
       <path value="$PROJECT_DIR$/LearnShop/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/rtconner/laravel-tagging" />
-      <path value="$PROJECT_DIR$/LearnShop/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/cviebrock/eloquent-taggable" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

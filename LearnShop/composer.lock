@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12928faa6c4e9c5fdb0cb987a1e73624",
+    "content-hash": "cd970764dfdfe8c01aef525567d2404e",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -262,6 +262,76 @@
                 }
             ],
             "time": "2022-01-25T02:55:58+00:00"
+        },
+        {
+            "name": "cviebrock/eloquent-taggable",
+            "version": "9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cviebrock/eloquent-taggable.git",
+                "reference": "c56f9888f2734a66afbc0fd4a407a8a2b18217f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cviebrock/eloquent-taggable/zipball/c56f9888f2734a66afbc0fd4a407a8a2b18217f6",
+                "reference": "c56f9888f2734a66afbc0fd4a407a8a2b18217f6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "^9.0",
+                "illuminate/database": "^9.0",
+                "illuminate/support": "^9.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "limedeck/phpunit-detailed-printer": "^6.0",
+                "orchestra/database": "^7.0",
+                "orchestra/testbench": "^7.18",
+                "phpunit/phpunit": "^9.5.10"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cviebrock\\EloquentTaggable\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cviebrock\\EloquentTaggable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Viebrock",
+                    "email": "colin@viebrock.ca"
+                }
+            ],
+            "description": "Easy ability to tag your Eloquent models in Laravel 5.",
+            "homepage": "https://github.com/cviebrock/eloquent-taggable",
+            "keywords": [
+                "Taggable",
+                "eloquent",
+                "laravel",
+                "tag",
+                "tagging"
+            ],
+            "support": {
+                "issues": "https://github.com/cviebrock/eloquent-taggable/issues",
+                "source": "https://github.com/cviebrock/eloquent-taggable"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/cviebrock",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-01-27T16:33:17+00:00"
         },
         {
             "name": "dasprid/enum",
@@ -8480,5 +8550,5 @@
         "php": "^8.1.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }

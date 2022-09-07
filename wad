@@ -1,0 +1,270 @@
+[33mcommit 618160121b431585bd97b36c136c801c37ec4ae6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 23:18:49 2022 +0430
+
+    set relationship episodes & commets with replies in models
+
+[33mcommit 410d1790bb187712b274e044a9d1eacba0d2f041[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 23:15:33 2022 +0430
+
+    set relationship course & episodes in models
+
+[33mcommit 73f979dc6aa7d1c3f5c46325dda5bd0ce95463e5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 23:12:05 2022 +0430
+
+    set user relationship to article & comments replies in models, delete reply comments table
+
+[33mcommit 2d69efe82ecda1aab26c35da53fbabbed00b6076[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 20:21:32 2022 +0430
+
+    set user relationship to article & course comments in models
+
+[33mcommit 28b8bec8f4e7095870c6cef3f080369cfbabcfce[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 19:50:43 2022 +0430
+
+    set user and course relation in models
+
+[33mcommit 1b637895568aa4e1154c3745b069d8c0eb5fe3ca[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 19:45:41 2022 +0430
+
+    set user and article relation in models
+
+[33mcommit 08dbfca133700376ba4ec48956fe5c09ad2af15d[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 19:30:00 2022 +0430
+
+    edit database diagram (editatio2)
+
+[33mcommit 98acd7197def72cd6d11da8e50207d6996468459[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:49:54 2022 +0430
+
+    refactor migrations and add onDelete cascade method to foigen key
+
+[33mcommit b0f0a52e5d29fb69dfa450ef9aa2c28903dbd758[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:44:27 2022 +0430
+
+    add refrences in reply episode and article comment migration
+
+[33mcommit eff4d51a2d53a52011cf5ce9bc3b796ad248d2e3[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:39:29 2022 +0430
+
+    create reply_article_comment migration
+
+[33mcommit 69e5c2252504a3ccfb4ad9cda67d456690cadfc8[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:37:09 2022 +0430
+
+    edit reply_episode_comment migration
+
+[33mcommit 1d4385c6e785ed7a4736744a3f7f1ad89a47ab58[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:02:43 2022 +0430
+
+    edit article_comment migration
+
+[33mcommit 1dcdbe3655d2b040a711c71893eba1ee3b285bbe[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:02:02 2022 +0430
+
+    create ArticleComment model with -m
+
+[33mcommit 66ab8acdb82ae3550fd9537e22aa04217b5bcb95[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 18:00:08 2022 +0430
+
+    edit episode_comment migration
+
+[33mcommit 3b99b52101b177560e4d84474440f54488961724[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 17:50:09 2022 +0430
+
+    create EpisodeComment model with -m
+
+[33mcommit 5c74de2ff5915a03361c56dbcced91a16916e675[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 17:42:56 2022 +0430
+
+    edit purchases migration
+
+[33mcommit ae7d4621be2531d67ae8511fc39356821e75795d[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:36:53 2022 +0430
+
+    edit permission_user migration
+
+[33mcommit 463536adae52a6ddec88d520b181e1d460643db2[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:32:49 2022 +0430
+
+    create create_purchases_table migration
+
+[33mcommit c8208d527b1c0a9e226be83d55727f2e1266178f[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:31:00 2022 +0430
+
+    edit permissiom_uset table
+
+[33mcommit 044b142e9e87dc0710c82683c38ad1c84a3da315[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:27:46 2022 +0430
+
+    create Permission_user migration
+
+[33mcommit 0a7836b91c3da45b77bb717a3499b05a5b31964d[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:17:44 2022 +0430
+
+    edit Permission migration
+
+[33mcommit f28fb732e262af0ecc40e916edf68ef1f34f6792[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:14:11 2022 +0430
+
+    Create Permission model with -m and Refactor Controller Admin Sort
+
+[33mcommit b00a043ae1d8c19daff363f64bc9e6fad0f803ae[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 16:06:02 2022 +0430
+
+    set Episode model and migration and edit course and article model
+
+[33mcommit d0b4a972df2aa2550ab6103c01b1640aeffc27bf[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 15:15:23 2022 +0430
+
+    Create Episode model with -all
+
+[33mcommit 28984db46fb88a7c236fb51faa6c0d56eb3651e5[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 14:42:20 2022 +0430
+
+    set article and course model to sluggable and taggable
+
+[33mcommit fbbbd721ce37c5f43bcd4f636776aa5661c8681f[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 14:37:01 2022 +0430
+
+    edit courses table migration and install taggable package
+
+[33mcommit ec309ff957d47263299e43a15996473d80a99b72[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 13:52:43 2022 +0430
+
+    delete idea folder
+
+[33mcommit 58b6d4174161def31cd3f4c227df28f22a023f6f[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 13:51:53 2022 +0430
+
+    create Course model with -a
+
+[33mcommit c79ccf0306d5306f73a659c2d1e711fb15de3180[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 07:31:53 2022 +0430
+
+    delete idea folder
+
+[33mcommit f1e9c71b5662abb6501c7584ecf248e45badc17c[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 02:04:34 2022 +0430
+
+    set sluggable config for usable perasian laguage
+
+[33mcommit 10306ec8225b3f7a7faa213906b929873a96b50a[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 01:56:53 2022 +0430
+
+    set sluggable in user model
+
+[33mcommit 9358fe6b5c543a8648737ef91f6dfcc75a9b98de[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 01:53:27 2022 +0430
+
+    set fillable and sluggable in Article model
+
+[33mcommit 56bffb30acaff72edc28895042f709be35bb3499[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 01:44:52 2022 +0430
+
+    edit create_articles_table migration
+
+[33mcommit 91b1addfc4da4f793c1ab05055db94c9a993a20e[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 01:33:17 2022 +0430
+
+    create Article model with all
+
+[33mcommit 53fc1603b5018ffe6cc3ac19e74c226806154703[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Sep 7 01:15:36 2022 +0430
+
+    set enum casting for user-level
+
+[33mcommit 969409c8bd3287ae1122401a52478e15eeb1a2d0[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 21:39:56 2022 +0430
+
+    edit defualt User Model and migration
+
+[33mcommit 196fd40206f2842b3b9c31e63e4e5261a6e31dd8[m
+Merge: 5eec8a3 85d899e
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 21:07:43 2022 +0430
+
+    Merge branch 'master' of https://github.com/RezaRfahi/LearnSohp
+
+[33mcommit 5eec8a31a561228ad3e175cdd0e771e401c8052e[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 21:06:35 2022 +0430
+
+    idea commit
+
+[33mcommit 85d899e7f91dbe41a081946a1953250ddd19bdc1[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 19:59:32 2022 +0430
+
+    save database diagram
+
+[33mcommit 3767bc6e1e192fe121f4ed003938d8d3efeb3077[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 00:58:09 2022 +0430
+
+    change php version to 8.1.2
+
+[33mcommit 015f2bfa8da07902625a4292696f9b79f93b1dd7[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 00:51:30 2022 +0430
+
+    install jetstream Livewire --teams
+
+[33mcommit 294b682082ee1033fdb77e1809517f5ad465055f[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 00:46:37 2022 +0430
+
+    install jetstream
+
+[33mcommit ebd1ae4f9d00dfff2429ceb08123a8179fcd965c[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 00:45:19 2022 +0430
+
+    publish sluggable config
+
+[33mcommit bee1eb2a9f2c50f43eab94335a08e6a2c5557580[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Tue Sep 6 00:42:32 2022 +0430
+
+    install sluggable
+
+[33mcommit e42d3333be3ae9140148e26b583dd0f8a087a1dd[m[33m ([m[1;34mgrafted[m[33m)[m
+Author: RezaRfahi <refahireza82@gmail.com>
+Date:   Wed Aug 24 00:26:50 2022 +0430
+
+    Create LearnShop Project

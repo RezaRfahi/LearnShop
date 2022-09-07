@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnShop/config/taggable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_190433_create_taggable_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LearnSohp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnSohp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_114021_create_permissions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_190438_create_permissions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_115633_create_permission_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_191616_create_permission_user_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +154,7 @@
       <path value="$PROJECT_DIR$/LearnShop/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/rtconner/laravel-tagging" />
-      <path value="$PROJECT_DIR$/LearnShop/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/cviebrock/eloquent-taggable" />
     </include_path>
   </component>
   <component name="ProjectId" id="2EQy9aDvGqsqHjHS1KlZYaYvOor" />
@@ -187,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662541986980</updated>
       <workItem from="1662542013525" duration="7218000" />
-      <workItem from="1662563214269" duration="3854000" />
+      <workItem from="1662563214269" duration="5851000" />
     </task>
     <servers />
   </component>
