@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('episode_comments', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->unsignedBigInteger('episode_id');
-            $table->foreign('episode_id')->references('id')->on('episodes');
+            $table->foreign('episode_id')->references('id')->on('episodes')->onDelete('cascade');
             $table->unsignedBigInteger('like_count')->default(0);
             $table->timestamps();
         });

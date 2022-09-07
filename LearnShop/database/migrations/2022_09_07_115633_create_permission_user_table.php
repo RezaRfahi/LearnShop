@@ -15,9 +15,11 @@ return new class extends Migration
     {
         Schema::create('permission_user', function (Blueprint $table) {
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->
+            on('users')->onDelete('cascade');
             $table->unsignedBigInteger('permission_id');
-            $table->foreign('permission_user')->references('id')->on('permissions');
+            $table->foreign('permission_user')->references('id')->
+            on('permissions')->onDelete('cascade');
         });
     }
 
