@@ -82,4 +82,14 @@ class User extends Authenticatable
         return $this->hasMany(Course::class);
     }
 
+    public function article_comments()
+    {
+        return $this->hasMany(ArticleComment::class);
+    }
+
+    public function episode_comments()
+    {
+        return $this->hasMany(EpisodeComment::class);
+    }
+
 }
