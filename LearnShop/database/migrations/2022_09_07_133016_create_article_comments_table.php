@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->unsignedBigInteger('episode_id');
             $table->foreign('episode_id')->references('id')->on('episodes')->onDelete('cascade');
+            $table->unsignedBigInteger('parent_id')->nullable();
             $table->unsignedBigInteger('like_count')->default(0);
             $table->timestamps();
         });

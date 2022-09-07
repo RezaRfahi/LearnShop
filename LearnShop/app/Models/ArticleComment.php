@@ -14,4 +14,14 @@ class ArticleComment extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function article()
+    {
+        return $this->belongsTo(Article::class);
+    }
+
+    public function replies()
+    {
+        return $this->hasMany(ArticleComment::class, 'parent_id');
+    }
+
 }
