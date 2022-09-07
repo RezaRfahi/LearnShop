@@ -14,4 +14,14 @@ class EpisodeComment extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function episode()
+    {
+        return $this->belongsTo(Episode::class);
+    }
+
+    public function replies()
+    {
+        return $this->hasMany(EpisodeComment::class, 'parent_id');
+    }
+
 }

@@ -29,4 +29,9 @@ class Episode extends Model
         return $this->belongsTo(Course::class);
     }
 
+    public function comments()
+    {
+        return $this->hasMany(EpisodeComment::class);
+    }
+
 }
