@@ -20,6 +20,7 @@ return new class extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedBigInteger('user_id');
             $table->foreign('course_id')->references('id')->on('courses');
+            $table->string('amount');
             $table->timestamps();
         });
     }
