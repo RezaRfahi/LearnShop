@@ -97,4 +97,9 @@ class User extends Authenticatable
         return $this->belongsToMany(Permission::class);
     }
 
+    public function is_admin(User $user)
+    {
+        return $user->level=='admin';
+    }
+
 }
