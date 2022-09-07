@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LearnShop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_091747_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_091747_create_courses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662541986980</updated>
-      <workItem from="1662542013525" duration="2580000" />
+      <workItem from="1662542013525" duration="2945000" />
     </task>
     <servers />
   </component>
