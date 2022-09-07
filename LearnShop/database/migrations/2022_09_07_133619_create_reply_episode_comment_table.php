@@ -15,7 +15,11 @@ return new class extends Migration
     {
         Schema::create('reply_episode_comment', function (Blueprint $table) {
             $table->unsignedBigInteger('parent_comment_id');
+            $table->foreign('parent_comment_id')->references('id')->
+            on('episode_comments')->onDelete('cascade');
             $table->unsignedBigInteger('child_comment_id');
+            $table->foreign('child_comment_id')->references('id')->
+            on('episode_comments')->onDelete('cascade');
         });
     }
 
