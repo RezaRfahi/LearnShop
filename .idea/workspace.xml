@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.bkp" beforeDir="false" afterPath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.bkp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.dtmp" beforeDir="false" afterPath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.dtmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/ArticleComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/ArticleComment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_131819_create_episode_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_131819_create_episode_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_133016_create_article_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_133016_create_article_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_133619_create_reply_episode_comment_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_140749_create_reply_article_comment_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662541986980</updated>
       <workItem from="1662542013525" duration="7218000" />
-      <workItem from="1662563214269" duration="3535000" />
+      <workItem from="1662563214269" duration="3854000" />
     </task>
     <servers />
   </component>
