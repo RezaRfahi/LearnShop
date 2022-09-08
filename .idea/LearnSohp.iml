@@ -9,6 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/LearnShop/vendor/cviebrock/eloquent-taggable" />
+      <excludeFolder url="file://$MODULE_DIR$/LearnShop/vendor/giggsey/libphonenumber-for-php" />
+      <excludeFolder url="file://$MODULE_DIR$/LearnShop/vendor/giggsey/locale" />
+      <excludeFolder url="file://$MODULE_DIR$/LearnShop/vendor/propaganistas/laravel-phone" />
+      <excludeFolder url="file://$MODULE_DIR$/LearnShop/vendor/league/iso3166" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

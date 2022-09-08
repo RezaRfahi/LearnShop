@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnShop/config/taggable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_190433_create_taggable_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.bkp" beforeDir="false" afterPath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.bkp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.dtmp" beforeDir="false" afterPath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.dtmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LearnSohp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnSohp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Permission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_114021_create_permissions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_190438_create_permissions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_115633_create_permission_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_191616_create_permission_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +153,10 @@
       <path value="$PROJECT_DIR$/LearnShop/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/rtconner/laravel-tagging" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/cviebrock/eloquent-taggable" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/propaganistas/laravel-phone" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/league/iso3166" />
     </include_path>
   </component>
   <component name="ProjectId" id="2EQy9aDvGqsqHjHS1KlZYaYvOor" />
@@ -165,23 +167,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PHP\Laravel\LearnShop\LearnShop\app\Http\Controllers\web\Admin" />
@@ -197,7 +199,9 @@
       <option name="presentableId" value="Default" />
       <updated>1662541986980</updated>
       <workItem from="1662542013525" duration="7218000" />
-      <workItem from="1662563214269" duration="5851000" />
+      <workItem from="1662563214269" duration="6405000" />
+      <workItem from="1662623468010" duration="3301000" />
+      <workItem from="1662658068834" duration="3278000" />
     </task>
     <servers />
   </component>

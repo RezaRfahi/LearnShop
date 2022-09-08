@@ -122,6 +122,10 @@
       <path value="$PROJECT_DIR$/LearnShop/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/rtconner/laravel-tagging" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/cviebrock/eloquent-taggable" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/propaganistas/laravel-phone" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/league/iso3166" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

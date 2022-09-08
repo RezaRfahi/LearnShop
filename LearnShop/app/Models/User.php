@@ -67,7 +67,7 @@ class User extends Authenticatable
     {
         return [
             'slug' => [
-                'source' => 'username'
+                'source' => 'name'
             ]
         ];
     }
