@@ -109,6 +109,7 @@ return [
             "/ĳ/" => "j",
             "/Œ/" => "E",
             "/ƒ/" => ""];
+
         $quotedReplacement = preg_quote($separator, '/');
         $merge = [
             '/[^\s\p{Zs}\p{Ll}\p{Lm}\p{Lo}\p{Lt}\p{Lu}\p{Nd}]/mu' => ' ',
@@ -206,7 +207,9 @@ return [
      * Only set this to true if you understand the possible consequences.
      */
 
-    'onUpdate' => false,
+    'onUpdate' => true,
+
+    'use_cache' => false,
 
     /**
      * If the default slug engine of cocur/slugify is used, this array of
