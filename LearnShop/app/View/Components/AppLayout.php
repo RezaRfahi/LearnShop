@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use Faker\Provider\PhoneNumber;
 use Illuminate\View\Component;
 
 class AppLayout extends Component
