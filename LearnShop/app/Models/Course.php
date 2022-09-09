@@ -40,4 +40,9 @@ class Course extends Model
         return $this->hasMany(Episode::class);
     }
 
+    public function purchases()
+    {
+        return $this->belongsToMany(Purchase::class);
+    }
+
 }

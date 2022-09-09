@@ -7,7 +7,7 @@ use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Purchase>
  */
 class PurchaseFactory extends Factory
 {
@@ -19,6 +19,7 @@ class PurchaseFactory extends Factory
     public function definition()
     {
         $course_id = Course::all()->random()->id;
+
         return [
             'serial_number' => fake()->buildingNumber,
             'user_id' => User::all()->random()->id,

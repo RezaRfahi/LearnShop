@@ -2,11 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Models\Article;
+use App\Models\Purchase;
+use Database\Factories\PurchaseFactory;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class ArticleSeeder extends Seeder
+class PurchaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,6 +16,6 @@ class ArticleSeeder extends Seeder
      */
     public function run()
     {
-        Article::factory(10)->create();
+        Purchase::factory(8)->create();
     }
 }
