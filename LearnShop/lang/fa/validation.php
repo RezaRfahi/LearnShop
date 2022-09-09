@@ -97,6 +97,7 @@ return [
     'not_regex' => 'فرمت گزینه :attribute صحیح نمی باشد',
     'numeric' => 'گزینه :attribute باید از نوع عددی باشد',
     'password' => 'رمزعبور صحیح نمی باشد',
+    'phone' => 'فیلد تماس حاوی یک عدد نامعتبر است.',
     'present' => 'گزینه :attribute باید از نوع درصد باشد',
     'regex' => 'فرمت گزینه :attribute صحیح نمی باشد',
     'required' => 'تکمیل گزینه :attribute الزامی است',
