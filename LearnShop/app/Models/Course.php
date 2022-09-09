@@ -34,6 +34,17 @@ class Course extends Model
         return "/course/$this->slug";
     }
 
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+
+    public function getRouteKey()
+    {
+        return 'slug';
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);

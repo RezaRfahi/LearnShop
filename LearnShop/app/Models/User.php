@@ -76,6 +76,17 @@ class User extends Authenticatable
         return "/user/$this->slug";
     }
 
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+
+    public function getRouteKey()
+    {
+        return 'slug';
+    }
+
     public function articles()
     {
         return $this->hasMany(Article::class);

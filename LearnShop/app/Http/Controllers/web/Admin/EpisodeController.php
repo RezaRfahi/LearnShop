@@ -15,7 +15,7 @@ class EpisodeController extends Controller
      */
     public function index()
     {
-        //
+        dd(Episode::all());
     }
 
     /**
