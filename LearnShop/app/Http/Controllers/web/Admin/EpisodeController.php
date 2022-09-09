@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\web\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Models\Episode;
-use App\Http\Requests\StoreEpisodeRequest;
-use App\Http\Requests\UpdateEpisodeRequest;
+use Illuminate\Http\Request;
 
 class EpisodeController extends Controller
 {
@@ -31,10 +31,10 @@ class EpisodeController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreEpisodeRequest  $request
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreEpisodeRequest $request)
+    public function store(Request $request)
     {
         //
     }
@@ -64,11 +64,11 @@ class EpisodeController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateEpisodeRequest  $request
+     * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\Episode  $episode
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateEpisodeRequest $request, Episode $episode)
+    public function update(Request $request, Episode $episode)
     {
         //
     }

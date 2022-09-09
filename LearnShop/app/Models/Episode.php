@@ -24,6 +24,10 @@ class Episode extends Model
         ];
     }
 
+    public function path() {
+        return "/episode/$this->slug";
+    }
+
     public function course()
     {
         return $this->belongsTo(Course::class);

@@ -30,6 +30,10 @@ class Course extends Model
 
     }
 
+    public function path() {
+        return "/course/$this->slug";
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);

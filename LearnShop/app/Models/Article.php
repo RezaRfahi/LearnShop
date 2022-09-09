@@ -28,6 +28,10 @@ class Article extends Model
 
     }
 
+    public function path() {
+        return "/article/$this->slug";
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);

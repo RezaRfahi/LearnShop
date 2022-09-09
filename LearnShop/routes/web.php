@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\web\Admin\ArticleController as AdminArticleController;
+use App\Http\Controllers\web\Admin\CourseController as AdminCourseController;
+use App\Http\Controllers\web\Admin\EpisodeController as AdminEpisodeController;
+use App\Http\Controllers\web\Admin\UserController as AdminUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,5 +29,14 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-    
+
+    Route::prefix('admin')->group(function (){
+        Route::resources([
+            'user' => AdminUserController::class,
+            'article' => AdminArticleController::class,
+            'Course' => AdminCourseController::class,
+            'Episode' => AdminEpisodeController::class
+        ]);
+    });
+
 });
