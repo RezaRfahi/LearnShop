@@ -22,8 +22,9 @@ class EpisodeCommentFactory extends Factory
         return [
             'user_id' => User::all()->random()->id,
             'episode_id' => Episode::all()->random()->id,
-            'parent_id' => fake()->boolean(85) ? null :
-                EpisodeComment::all()->random()->id,
+            'parent_id' => null
+//                fake()->boolean(85) ? null :
+//                EpisodeComment::all()->random()->id,
         ];
     }
 }

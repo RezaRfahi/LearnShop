@@ -21,7 +21,7 @@ class PurchaseFactory extends Factory
         $course_id = Course::all()->random()->id;
 
         return [
-            'serial_number' => fake()->buildingNumber,
+            'serial_number' => str(fake()->numberBetween(1000000,1000000000)),
             'user_id' => User::all()->random()->id,
             'course_id' => $course_id,
             'amount' => Course::query()->where('id', '=', $course_id)->first()->price,

@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Course;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -11,13 +12,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 class EpisodeFactory extends Factory
 {
 
-//    public function autoIncreament()
-//    {
-//        for($i=1; $i<100; $i++)
-//        {
-//            yield $i;
-//        }
-//    }
+    public function autoIncreament()
+    {
+        for($i=1; $i<100; $i++)
+        {
+            yield $i;
+        }
+    }
 
     /**
      * Define the model's default state.
@@ -26,13 +27,12 @@ class EpisodeFactory extends Factory
      */
     public function definition()
     {
-        $x=1;
         return [
-            'user_id' => User::all()->random()->id,
+            'course_id' => Course::all()->random()->id,
             'title' => fake()->sentence(),
             'video_path' => fake()->url,
             'duration' => fake()->numberBetween(15,72000),
-            'number' => $x++,
+            'number' => $this->autoIncreament()->current()
         ];
     }
 }
