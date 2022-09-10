@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.bkp" beforeDir="false" afterPath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.bkp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.dtmp" beforeDir="false" afterPath="$PROJECT_DIR$/.$LearnShop_DatabaseDiagram.drawio.dtmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearnSohp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnSohp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop_DatabaseDiagram.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +192,9 @@
       <workItem from="1662542013525" duration="7218000" />
       <workItem from="1662563214269" duration="6405000" />
       <workItem from="1662623468010" duration="3301000" />
-      <workItem from="1662658068834" duration="3278000" />
+      <workItem from="1662658068834" duration="6354000" />
+      <workItem from="1662724152683" duration="4411000" />
+      <workItem from="1662734637172" duration="9632000" />
     </task>
     <servers />
   </component>
