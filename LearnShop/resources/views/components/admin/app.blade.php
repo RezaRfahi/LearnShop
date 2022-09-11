@@ -23,7 +23,7 @@
     'resources/css/adminlte.min.css',
     'resources/css/bootstrap-rtl.min.css',
     'resources/css/custom-style.css',
-   
+
    ])
 
 </head>
@@ -38,13 +38,28 @@
         <!-- Main Sidebar Container -->
         <x-admin.sidebar />
 
-        <!-- Content Wrapper. Contains page content -->
-        <main>
-            <div class="content-wrapper">
-                {{$slot}}
-            </div>
-        </main>
 
+
+        <!-- Content Wrapper. Contains page content -->
+        <section class="content">
+        <div class="content-wrapper">
+                    <div class="container-fluid">
+                        <div class="content-header">
+                            <div class="container-fluid">
+                                <div class="row mb-2">
+                                    <div class="col-sm-6">
+                                        {{ $title }}
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.container-fluid -->
+                        </div>
+                        <main>
+                {{ $slot }}
+                        </main>
+                    </div>
+
+            </div>
+        </section>
         <!-- /.content-wrapper -->
 
 
@@ -54,8 +69,11 @@
         </aside>
         <!-- /.control-sidebar -->
 
+
+
     </div>
     <!-- ./wrapper -->
+
 
 
 <!-- Morris.js charts -->

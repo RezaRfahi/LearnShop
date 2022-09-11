@@ -1,6 +1,7 @@
 import 'jquery/dist/jquery.min';
 import 'bootstrap/scss/bootstrap.scss';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.scss';
 import 'font-awesome/css/font-awesome.css';
 import 'font-awesome/css/font-awesome.min.css';
 import 'font-awesome/scss/font-awesome.scss';
