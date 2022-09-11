@@ -5,6 +5,7 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@rollup/plugin-inject": "^4.0.4",
         "@tailwindcss/forms": "^0.5.2",
         "@tailwindcss/typography": "^0.5.0",
         "alpinejs": "^3.0.6",
@@ -18,7 +19,9 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
+        "bootstrap": "^5.2.1",
         "font-awesome": "^4.7.0",
-        "jquery": "^3.6.1"
+        "jquery": "^3.6.1",
+        "propper": "^1.0.4"
     }
 }

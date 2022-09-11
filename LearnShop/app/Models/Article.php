@@ -2,16 +2,14 @@
 
 namespace App\Models;
 
-use Conner\Tagging\Taggable;
+ use Cviebrock\EloquentTaggable\Taggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;
 
 class Article extends Model
 {
-    use Taggable;
-    use Sluggable;
-    use HasFactory;
+    use HasFactory, Sluggable, Taggable;
 
     protected $fillable = [
         'title', 'body'

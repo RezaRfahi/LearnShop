@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Conner\Tagging\Taggable;
+use Cviebrock\EloquentTaggable\Taggable;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -10,9 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Course extends Model
 {
-    use Taggable;
-    use Sluggable;
-    use HasFactory;
+    use HasFactory, Sluggable, Taggable;
 
 
     protected $fillable = [
