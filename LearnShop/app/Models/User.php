@@ -12,16 +12,13 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
+use Laravel\Scout\Searchable;
+
 
 class User extends Authenticatable
 {
-    use Sluggable;
-    use HasApiTokens;
-    use HasFactory;
-    use HasProfilePhoto;
-    use HasTeams;
-    use Notifiable;
-    use TwoFactorAuthenticatable;
+    use Sluggable, HasApiTokens, HasFactory, HasProfilePhoto, HasTeams, Notifiable,
+        TwoFactorAuthenticatable, Searchable;
 
     /**
      * The attributes that are mass assignable.

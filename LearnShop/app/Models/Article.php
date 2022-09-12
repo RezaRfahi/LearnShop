@@ -8,10 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;
 use CyrildeWit\EloquentViewable\InteractsWithViews;
 use CyrildeWit\EloquentViewable\Contracts\Viewable;
+use Laravel\Scout\Searchable;
 
 class Article extends Model implements Viewable
 {
-    use HasFactory, Sluggable, Taggable, InteractsWithViews;
+    use HasFactory, Searchable, Sluggable, Taggable, InteractsWithViews;
 
     protected $fillable = [
         'title', 'body'

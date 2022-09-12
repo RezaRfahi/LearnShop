@@ -17,9 +17,9 @@ return new class extends Migration
         Schema::create('purchases', function (Blueprint $table) {
             $table->string('serial_number')->primary();
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->unsignedBigInteger('course_id');
-            $table->foreign('course_id')->references('id')->on('courses');
+            $table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');
             $table->string('amount');
             $table->timestamps();
         });

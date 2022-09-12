@@ -7,10 +7,11 @@ use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Laravel\Scout\Searchable;
 
 class Course extends Model
 {
-    use HasFactory, Sluggable, Taggable;
+    use HasFactory, Searchable, Sluggable, Taggable;
 
 
     protected $fillable = [

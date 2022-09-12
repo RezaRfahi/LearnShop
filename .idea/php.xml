@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/resources/views/components/input-text.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/UserShow.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Course.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_120213_create_purchases_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_120213_create_purchases_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/admin/user.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user-show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/routes/web.php" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/LearnShop/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/LearnShop/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/league/config" />
@@ -178,72 +141,10 @@
       <path value="$PROJECT_DIR$/LearnShop/vendor/algolia/algoliasearch-client-php" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2EQy9aDvGqsqHjHS1KlZYaYvOor" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PHP\Laravel\LearnShop\LearnShop\app\Http\Controllers\web\Admin" />
-      <recent name="D:\PHP\Laravel\LearnShop\LearnShop\app\Http\Controllers\web" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="" />
-      <created>1662541986980</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1662541986980</updated>
-      <workItem from="1662542013525" duration="7218000" />
-      <workItem from="1662563214269" duration="6405000" />
-      <workItem from="1662623468010" duration="3301000" />
-      <workItem from="1662658068834" duration="6354000" />
-      <workItem from="1662724152683" duration="4411000" />
-      <workItem from="1662734637172" duration="9632000" />
-      <workItem from="1662829693798" duration="1600000" />
-      <workItem from="1662838077617" duration="655000" />
-      <workItem from="1662997314239" duration="9917000" />
-      <workItem from="1663015477062" duration="3579000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/LearnShop/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
