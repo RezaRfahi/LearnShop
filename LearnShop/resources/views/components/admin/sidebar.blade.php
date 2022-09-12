@@ -26,18 +26,17 @@
                 <li class="nav-item has-treeview menu-open">
                   <ul class="nav nav-treeview">
                     <li class="nav-item">
-                      <a href="./index.html" class="nav-link {{request()->routeIs('admin.dashboard')? 'active' : ''}}" >
+                      <a href="{{route('admin.dashboard')}}" class="nav-link {{request()->routeIs('admin.dashboard')? 'active' : ''}}" >
                         <i class="fa fa-circle-o nav-icon"></i>
                         <p>داشبورد</p>
                       </a>
                     </ul>
                 </li>
                 <li class="nav-item">
-                  <a href="pages/widgets.html" class="nav-link">
-                    <i class="nav-icon fa fa-th"></i>
+                  <a href="{{route('admin.users')}}" class="nav-link {{request()->routeIs('admin.users')? 'active' : ''}}">
+                    <i class="nav-icon fa fa-user"></i>
                     <p>
-                      ویجت‌ها
-                      <span class="right badge badge-danger">جدید</span>
+                      کاربران
                     </p>
                   </a>
                 </li>

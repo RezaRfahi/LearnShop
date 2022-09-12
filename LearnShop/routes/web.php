@@ -34,8 +34,13 @@ Route::middleware([
 
     Route::prefix('admin')->group(function (){
         Route::get('/dashboard', [Dashboard::class, 'show'])->name('admin.dashboard');
+        Route::prefix('users')->controller(AdminUserController::class)->group(function ()
+        {
+            Route::get('manage', 'index')->name('admin.users');
+        }
+        );
         Route::resources([
-            'user' => AdminUserController::class,
+//            'user' => AdminUserController::class,
             'article' => AdminArticleController::class,
             'Course' => AdminCourseController::class,
             'Episode' => AdminEpisodeController::class
