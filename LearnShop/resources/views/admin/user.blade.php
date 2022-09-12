@@ -6,6 +6,7 @@
 
     <!-- Main row -->
     <div class="row">
+        <livewire:admin.user-show>
     </div>
     <!-- /.row (main row) -->
 
