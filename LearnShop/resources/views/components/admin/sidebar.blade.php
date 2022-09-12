@@ -1,7 +1,7 @@
 <div>
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
+        <a href="{{route('admin.dashboard')}}" class="brand-link">
           <span class="brand-text font-weight-light">پنل مدیریت</span>
         </a>
 
@@ -11,10 +11,10 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
               <div class="image">
-                <img src="https://www.gravatar.com/avatar/52f0fbcbedee04a121cba8dad1174462?s=200&d=mm&r=g" class="img-circle elevation-2" alt="User Image">
+                <img src="{{auth()->user()->profile_photo_url}}" class="img-circle elevation-2" alt="User Image">
               </div>
               <div class="info">
-                <a href="#" class="d-block">حسام موسوی</a>
+                <a href="#" class="d-block">{{auth()->user()->name}}</a>
               </div>
             </div>
 
@@ -24,33 +24,13 @@
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item has-treeview menu-open">
-                  <a href="#" class="nav-link active">
-                    <i class="nav-icon fa fa-dashboard"></i>
-                    <p>
-                      داشبوردها
-                      <i class="right fa fa-angle-left"></i>
-                    </p>
-                  </a>
                   <ul class="nav nav-treeview">
                     <li class="nav-item">
-                      <a href="./index.html" class="nav-link active">
+                      <a href="./index.html" class="nav-link {{request()->routeIs('admin.dashboard')? 'active' : ''}}" >
                         <i class="fa fa-circle-o nav-icon"></i>
-                        <p>داشبورد اول</p>
+                        <p>داشبورد</p>
                       </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="./index2.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>داشبورد دوم</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="./index3.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>داشبورد سوم</p>
-                      </a>
-                    </li>
-                  </ul>
+                    </ul>
                 </li>
                 <li class="nav-item">
                   <a href="pages/widgets.html" class="nav-link">
@@ -291,33 +271,6 @@
                       </a>
                     </li>
                   </ul>
-                </li>
-                <li class="nav-header">متفاوت</li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fa fa-file"></i>
-                    <p>مستندات</p>
-                  </a>
-                </li>
-                <li class="nav-header">برچسب‌ها</li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fa fa-circle-o text-danger"></i>
-                    <p class="text">مهم</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fa fa-circle-o text-warning"></i>
-                    <p>هشدار</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fa fa-circle-o text-info"></i>
-                    <p>اطلاعات</p>
-                  </a>
-                </li>
               </ul>
             </nav>
             <!-- /.sidebar-menu -->
