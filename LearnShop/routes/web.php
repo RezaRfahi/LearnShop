@@ -5,7 +5,7 @@ use App\Http\Controllers\web\Admin\ArticleController as AdminArticleController;
 use App\Http\Controllers\web\Admin\CourseController as AdminCourseController;
 use App\Http\Controllers\web\Admin\EpisodeController as AdminEpisodeController;
 use App\Http\Controllers\web\Admin\UserController as AdminUserController;
-use \App\Http\Controllers\admin\Dashboard;
+use App\Http\Controllers\web\Admin\Dashboard;
 use Illuminate\Support\Facades\Http;
 
 /*
