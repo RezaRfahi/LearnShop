@@ -1,72 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>پنل مدیریت</title>
+<x-admin.app xmlns:x-slot="http://www.w3.org/1999/xlink">
 
-    @livewireStyles
-
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Font Awesome -->
-
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-
-    @vite([
-    'resources/css/app.css',
-    'resources/css/adminlte.css',
-    'resources/css/adminlte.min.css',
-    'resources/css/bootstrap-rtl.min.css',
-    'resources/css/custom-style.css',
-    'resources/css/persian-datepicker.min.css',
-    'resources/js/app.js',
-    'resources/js/adminlte.min.js.map',
-    'resources/js/demo.js',
-    'resources/js/persian-date.min.js',
-    'resources/js/persian-datepicker.min.js',
-    'resources/js/adminlte.js',
-    'resources/js/adminlte.js.map',            
-    'resources/js/adminlte.min.js'
-]);
-
-</head>
-<body class="hold-transition sidebar-mini">
-<div class="wrapper">
-
-    <!-- Navbar -->
-    @livewire('admin.navbar')
-    <!-- /.navbar -->
-
-    <!-- Main Sidebar Container -->
-    @livewire('admin.sidebar')
-
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        {{-- {{$slot}} --}}
-    </div>
-    
-    <!-- /.content-wrapper -->
-    
-
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
-</div>
-<!-- ./wrapper -->
+    <x-slot name="title">
+        <h1 class="m-0 text-dark">داشبورد</h1>
+    </x-slot>
 
 
-<!-- Morris.js charts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<!-- daterangepicker -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3>150</h3>
+                            <p>مقاله ها</p>
+                        </div>
+                        <div class="icon">
+                            <small>
+                                <i class="bi bi-journal-text"></i>
+                            </small>
+                        </div>
+                        <a href="#" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            <h3>53<sup style="font-size: 20px">%</sup></h3>
 
-@livewireScripts
+                            <p>دوره ها</p>
+                        </div>
+                        <div class="icon">
+                            <small>
+                                <i class="bi bi-collection-play-fill"></i>
+                            </small>
+                        </div>
+                        <a href="#" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3>44</h3>
 
-</body>
-</html>
+                            <p>کاربران ثبت شده</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-danger">
+                        <div class="inner">
+                            <h3>65</h3>
+
+                            <p>بازدید جدید</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-pie-graph"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+
+            <!-- Main row -->
+            <div class="row">
+            </div>
+            <!-- /.row (main row) -->
+
+
+</x-admin.app>

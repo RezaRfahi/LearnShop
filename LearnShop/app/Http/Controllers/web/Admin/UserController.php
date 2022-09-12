@@ -15,7 +15,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        dd(User::all());
+        return view('admin.user');
     }
 
     /**
