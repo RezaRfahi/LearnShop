@@ -5,7 +5,7 @@ use App\Http\Controllers\web\Admin\ArticleController as AdminArticleController;
 use App\Http\Controllers\web\Admin\CourseController as AdminCourseController;
 use App\Http\Controllers\web\Admin\EpisodeController as AdminEpisodeController;
 use App\Http\Controllers\web\Admin\UserController as AdminUserController;
-// use App\Http\Livewire\Admin\Panel;
+use \App\Http\Controllers\admin\Dashboard;
 use Illuminate\Support\Facades\Http;
 
 /*
@@ -33,7 +33,7 @@ Route::middleware([
     })->name('dashboard');
 
     Route::prefix('admin')->group(function (){
-        Route::get('/', function(){return view('admin.panel');});
+        Route::get('/dashboard', [Dashboard::class, 'show'])->name('admin.dashboard');
         Route::resources([
             'user' => AdminUserController::class,
             'article' => AdminArticleController::class,
