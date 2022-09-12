@@ -2,14 +2,16 @@
 
 namespace App\Models;
 
- use Cviebrock\EloquentTaggable\Taggable;
+use Cviebrock\EloquentTaggable\Taggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;
+use CyrildeWit\EloquentViewable\InteractsWithViews;
+use CyrildeWit\EloquentViewable\Contracts\Viewable;
 
-class Article extends Model
+class Article extends Model implements Viewable
 {
-    use HasFactory, Sluggable, Taggable;
+    use HasFactory, Sluggable, Taggable, InteractsWithViews;
 
     protected $fillable = [
         'title', 'body'
