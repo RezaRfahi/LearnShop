@@ -17,8 +17,8 @@ use Laravel\Scout\Searchable;
 
 class User extends Authenticatable
 {
-    use Sluggable, HasApiTokens, HasFactory, HasProfilePhoto, HasTeams, Notifiable,
-        TwoFactorAuthenticatable, Searchable;
+    use Sluggable, Searchable, HasApiTokens, HasFactory, HasProfilePhoto, HasTeams, Notifiable,
+        TwoFactorAuthenticatable;
 
     /**
      * The attributes that are mass assignable.
@@ -83,6 +83,15 @@ class User extends Authenticatable
     public function getRouteKey()
     {
         return 'slug';
+    }
+
+    public function toSearchableArray()
+    {
+        return
+            [
+            'name' => $this->name,
+            'email' => $this->email,
+            ];
     }
 
     public function articles()

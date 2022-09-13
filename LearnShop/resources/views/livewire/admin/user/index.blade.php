@@ -37,7 +37,7 @@
                 </tr>
                             @empty
                                 <tr>
-                                    <th> هیچ موردی یافت نشد</th>
+                                    <td> هیچ موردی یافت نشد</td>
                                 </tr>
                             @endforelse
             </tbody>

@@ -7,6 +7,13 @@
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/Episode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/config/scout.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/config/scout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_104225_create_episodes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/database/migrations/2022_09_07_104225_create_episodes_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +189,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -216,7 +224,8 @@
       <workItem from="1662838077617" duration="655000" />
       <workItem from="1662997314239" duration="9917000" />
       <workItem from="1663015477062" duration="3579000" />
-      <workItem from="1663077608292" duration="2295000" />
+      <workItem from="1663077608292" duration="3483000" />
+      <workItem from="1663081700846" duration="6161000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,7 @@ use Laravel\Scout\Searchable;
 
 class Article extends Model implements Viewable
 {
-    use HasFactory, Searchable, Sluggable, Taggable, InteractsWithViews;
+    use HasFactory, Searchable,  Sluggable, Taggable, InteractsWithViews;
 
     protected $fillable = [
         'title', 'body'

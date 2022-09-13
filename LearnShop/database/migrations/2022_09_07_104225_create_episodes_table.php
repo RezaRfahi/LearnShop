@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('course_id');
             $table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');
-            $table->string('title');
+            $table->string('title')->fulltext();
             $table->string('slug')->unique();
             $table->string('video_path');
             $table->unsignedBigInteger('duration')->default(0);
