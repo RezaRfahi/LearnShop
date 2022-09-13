@@ -21,6 +21,11 @@ class Index extends Component
         $user->delete();
     }
 
+    public function showUser($user)
+    {
+        return $this->redirectRoute('admin.user.show', ['user' => $user['slug']]);
+    }
+
     public function render()
     {
         $users=User::latest()->where('name', 'like', '%'.$this->search.'%')->paginate(12);
