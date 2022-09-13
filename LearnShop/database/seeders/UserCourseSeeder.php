@@ -2,12 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Purchase;
-use Database\Factories\PurchaseFactory;
+use App\Models\UserCourse;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class PurchaseSeeder extends Seeder
+class UserCourseSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -16,6 +15,6 @@ class PurchaseSeeder extends Seeder
      */
     public function run()
     {
-        Purchase::factory(8)->create();
+        UserCourse::factory(8)->create();
     }
 }

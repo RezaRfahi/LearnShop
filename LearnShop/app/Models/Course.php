@@ -54,9 +54,9 @@ class Course extends Model
         return $this->hasMany(Episode::class);
     }
 
-    public function purchases()
+    public function users()
     {
-        return $this->belongsToMany(Purchase::class);
+        return $this->belongsToMany(User::class, 'course_users', 'course_id', 'user_id');
     }
 
 }

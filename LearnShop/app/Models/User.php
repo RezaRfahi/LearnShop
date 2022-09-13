@@ -124,9 +124,9 @@ class User extends Authenticatable
         return $user->level=='admin';
     }
 
-    public function purchases()
+    public function userCourses()
     {
-        return $this->belongsToMany(Purchase::class);
+        return $this->belongsToMany(Course::class, 'user_courses', 'user_id', 'course_id',);
     }
 
 }

@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\CourseUser;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -20,7 +21,7 @@ class DatabaseSeeder extends Seeder
                 ArticleSeeder::class,
                 CourseSeeder::class,
 //                EpisodeSeeder::class,
-                PurchaseSeeder::class,
+                UserCourseSeeder::class,
                 ArticleCommentSeeder::class,
 //                EpisodeCommentSeeder::class
             ]

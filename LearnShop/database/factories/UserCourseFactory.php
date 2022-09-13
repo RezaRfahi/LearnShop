@@ -7,9 +7,9 @@ use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Purchase>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\UserCourse>
  */
-class PurchaseFactory extends Factory
+class UserCourseFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -18,8 +18,7 @@ class PurchaseFactory extends Factory
      */
     public function definition()
     {
-        $course_id = Course::all()->random()->id;
-
+        $course_id=Course::all()->random()->id;
         return [
             'serial_number' => str(fake()->numberBetween(1000000,1000000000)),
             'user_id' => User::all()->random()->id,
