@@ -3,9 +3,12 @@
         <h1 class="m-0 text-dark">مدیریت کاربران</h1>
     </x-slot>
     <div class="container">
-        <x-input-text  wire:model.debounce.500ms="search" name="search" value="{{old('search')}}"
-                       class="w-1/2 mb-2" placeholder="جست و جو..."/>
+        <div class="col-sm-12 mb-2">
+            <button class="btn btn-info " target="__blank">افزودن کاربر</button>
+        </div>
         <hr>
+        <x-input-text  wire:model.debounce.500ms="search" name="search" value="{{old('search')}}"
+                       class="w-1/2 mb-2" placeholder="جستجو..."/>
         <table class="table table-striped">
             <thead>
             <tr>
@@ -35,11 +38,11 @@
                         class="btn-outline-danger m-3">حذف</button>
                     </td>
                 </tr>
-                            @empty
-                                <tr>
-                                    <td> هیچ موردی یافت نشد</td>
-                                </tr>
-                            @endforelse
+            @empty
+                <tr>
+                    <td> هیچ موردی یافت نشد</td>
+                </tr>
+            @endforelse
             </tbody>
         </table>
 
