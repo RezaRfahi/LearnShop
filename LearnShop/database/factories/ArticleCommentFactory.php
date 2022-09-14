@@ -23,6 +23,7 @@ class ArticleCommentFactory extends Factory
         return [
             'user_id' => User::all()->random()->id,
             'article_id' => Article::all()->random()->id,
+            'body' => fake()->text(),
             'parent_id' => null
 //                fake()->boolean(80) ? null :
 //                ArticleComment::all()->random()->id,

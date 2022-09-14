@@ -22,6 +22,7 @@ return new class extends Migration {
             $table->text('body')->fulltext();
             $table->unsignedBigInteger('view_count')->default(0);
             $table->unsignedBigInteger('like_count')->default(0);
+            $table->unsignedBigInteger('commentCount')->default(0);
             $table->timestamps();
         });
     }

@@ -20,10 +20,10 @@ class DatabaseSeeder extends Seeder
                 UserSeeder::class,
                 ArticleSeeder::class,
                 CourseSeeder::class,
-//                EpisodeSeeder::class,
+                EpisodeSeeder::class,
                 UserCourseSeeder::class,
                 ArticleCommentSeeder::class,
-//                EpisodeCommentSeeder::class
+                EpisodeCommentSeeder::class
             ]
         );
     }

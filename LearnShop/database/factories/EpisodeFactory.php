@@ -11,20 +11,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class EpisodeFactory extends Factory
 {
-
-    public function autoIncreament()
-    {
-        for($i=1; $i<100; $i++)
-        {
-            yield $i;
-        }
-    }
-
     /**
      * Define the model's default state.
      *
      * @return array<string, mixed>
      */
+    private int $i=1;
+
     public function definition()
     {
         return [
@@ -32,7 +25,7 @@ class EpisodeFactory extends Factory
             'title' => fake()->sentence(),
             'video_path' => fake()->url,
             'duration' => fake()->numberBetween(15,72000),
-            'number' => $this->autoIncreament()->current()
+            'number' => $this->i++
         ];
     }
 }
