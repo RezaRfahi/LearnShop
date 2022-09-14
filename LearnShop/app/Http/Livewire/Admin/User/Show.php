@@ -10,9 +10,9 @@ class Show extends Component
 
     public User $user;
 
-    public function editUser($user)
+    public function deletePhoto()
     {
-        return $this->redirectRoute('admin.user.edit', ['user' => $user['slug']]);
+        $this->user->deleteProfilePhoto();
     }
 
     public function render()

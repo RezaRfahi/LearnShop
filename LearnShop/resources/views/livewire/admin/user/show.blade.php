@@ -16,7 +16,7 @@
 {{--                                    <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>--}}
 {{--                                    <button class="btn btn-primary">Follow</button>--}}
 {{--                                    <button class="btn btn-outline-primary">Message</button>--}}
-                                    <button wire:click="editUser({{ $user }})" class="btn btn-outline-primary">ویرایش</button>
+                                    <button wire:click="deletePhoto()" class="btn btn-outline-primary">حذف تصویر</button>
                                 </div>
                             </div>
                         </div>
@@ -48,30 +48,36 @@
                 <div class="col-md-8">
                     <div class="card mb-3">
                         <div class="card-body">
-                            <div class="row">
+                            <div class="row mb-3">
                                 <div class="col-sm-3">
-                                    <h6 class="mb-0">Full Name</h6>
+                                    <h6 class="mb-0">نام</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    {{ $user->name }}
+                                    <input type="text" class="form-control" value={{ $user->name }}>
                                 </div>
                             </div>
                             <hr>
-                            <div class="row">
+                            <div class="row mb-3">
                                 <div class="col-sm-3">
-                                    <h6 class="mb-0">Email</h6>
+                                    <h6 class="mb-0">ایمیل</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    {{ $user->email }}
+                                    <input type="text" class="form-control" value={{ $user->email }}>
                                 </div>
                             </div>
                             <hr>
-                            <div class="row">
+                            <div class="row mb-3">
                                 <div class="col-sm-3">
-                                    <h6 class="mb-0">Phone</h6>
+                                    <h6 class="mb-0">تلفن</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    {{ phone($user->phone_number) }}
+                                    <input type="text" class="form-control" value={{ $user->phone_number }}>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-9 text-secondary">
+                                    <input type="button" class="btn btn-primary px-4" value="Save Changes">
                                 </div>
                             </div>
                         </div>

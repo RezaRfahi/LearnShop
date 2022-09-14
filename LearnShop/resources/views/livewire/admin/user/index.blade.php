@@ -31,11 +31,8 @@
                     <td>{{ $user->email }}</td>
                     <td>{{ $user->phone_number }}</td>
                     <td>
-                        <button wire:click="showUser({{$user}})"
-                           class="btn-outline-secondary m-3">نمایش</button>
-                        <button class="btn-outline-success m-3">تغییر</button>
-                        <button wire:click="deleteUser({{$user->id}})"
-                        class="btn-outline-danger m-3">حذف</button>
+                        <button wire:click="showUser({{$user}})" class="btn-outline-success m-3">ویرایش</button>
+                        <button wire:click="deleteUser({{$user->id}})" class="btn-outline-danger m-3">حذف</button>
                     </td>
                 </tr>
             @empty

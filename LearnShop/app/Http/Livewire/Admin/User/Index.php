@@ -5,15 +5,13 @@ namespace App\Http\Livewire\Admin\User;
 use App\Models\User;
 use Livewire\Component;
 use Livewire\WithPagination;
-use Illuminate\Pagination\Paginator;
-use Illuminate\Support\Facades\DB;
+
 
 class Index extends Component
 {
     use WithPagination;
 
     protected $paginationTheme = 'bootstrap';
-
 
     public $search = '';
 
