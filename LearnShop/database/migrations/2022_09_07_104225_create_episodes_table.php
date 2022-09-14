@@ -14,14 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('episodes', function (Blueprint $table) {
-            $table->id();
+            $table->increments('number');
             $table->unsignedBigInteger('course_id');
             $table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');
             $table->string('title')->fulltext();
             $table->string('slug')->unique();
             $table->string('video_path');
             $table->unsignedBigInteger('duration')->default(0);
-            $table->unsignedInteger('number');
             $table->boolean('is_free')->default(false);
             $table->unsignedBigInteger('view_count')->default(0);
             $table->unsignedBigInteger('like_count')->default(0);

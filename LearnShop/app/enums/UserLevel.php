@@ -2,8 +2,9 @@
 
 namespace App\enums;
 
-enum UserLevel : string
+enum UserLevel:string
 {
-    case user = 'user';
-    case admin = 'admin';
+    case Owner = 'owner';
+    case Admin = 'admin';
+    case User = 'user';
 }

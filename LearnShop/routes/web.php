@@ -8,6 +8,7 @@ use App\Http\Controllers\web\Admin\UserController as AdminUserController;
 use App\Http\Controllers\web\Admin\Dashboard;
 use App\Http\Livewire\Admin\User\Index as AdminUserIndex;
 use App\Http\Livewire\Admin\User\Show as AdminUserShow;
+use App\Http\Livewire\Admin\User\Edit as AdminUserEdit;
 use Illuminate\Support\Facades\Http;
 
 /*
@@ -38,8 +39,9 @@ Route::middleware([
         Route::get('/dashboard', [Dashboard::class, 'show'])->name('admin.dashboard');
         Route::prefix('users')->group(function ()
         {
-            Route::get('manage', AdminUserIndex::class)->name('admin.users');
+            Route::get('/', AdminUserIndex::class)->name('admin.users');
             Route::get('{user:slug}', AdminUserShow::class)->name('admin.user.show');
+            Route::get('edit/{user:slug}', AdminUserEdit::class)->name('admin.user.edit');
         }
         );
         Route::resources([

@@ -16,6 +16,7 @@
 {{--                                    <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>--}}
 {{--                                    <button class="btn btn-primary">Follow</button>--}}
 {{--                                    <button class="btn btn-outline-primary">Message</button>--}}
+                                    <button wire:click="editUser({{ $user }})" class="btn btn-outline-primary">ویرایش</button>
                                 </div>
                             </div>
                         </div>
@@ -71,13 +72,6 @@
                                 </div>
                                 <div class="col-sm-9 text-secondary">
                                     {{ phone($user->phone_number) }}
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <button class="btn btn-info " target="__blank">Edit</button>
-{{--                                    https://www.bootdey.com/snippets/view/profile-edit-data-and-skills--}}
                                 </div>
                             </div>
                         </div>
