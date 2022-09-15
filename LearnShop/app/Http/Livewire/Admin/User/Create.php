@@ -4,10 +4,13 @@ namespace App\Http\Livewire\Admin\User;
 
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
 
 class Create extends Component
 {
+    use LivewireAlert;
+
     public $name;
     public $email;
     public $phone;
@@ -29,14 +32,17 @@ class Create extends Component
     {
         $this->validate();
         $this->password=Hash::make($this->password);
-        dd(User::create(
+        User::create(
             [
                 'name' => $this->name,
                 'email' => $this->email,
                 'phone_number' => $this->phone,
                 'password' => $this->password
             ]
-        ));
+        );
+        session()->flash('success', 'کاربر با موفقیت ایجاد شد');
+        $this->redirectRoute('admin.users');
+
     }
 
     public function render()
