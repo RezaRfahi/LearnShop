@@ -15,6 +15,11 @@ class Index extends Component
 
     public $search = '';
 
+    public function addUserRedirect()
+    {
+        return $this->redirectRoute('admin.user.create');
+    }
+
     public function deleteUser(User $user)
     {
         $user->delete();

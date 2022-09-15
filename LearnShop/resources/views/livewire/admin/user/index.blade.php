@@ -4,7 +4,7 @@
     </x-slot>
     <div class="container">
         <div class="col-sm-12 mb-2">
-            <button class="btn btn-info " target="__blank">افزودن کاربر</button>
+            <button wire:click="addUserRedirect" class="btn btn-info " target="__blank">افزودن کاربر</button>
         </div>
         <hr>
         <x-input-text  wire:model.debounce.500ms="search" name="search" value="{{old('search')}}"
