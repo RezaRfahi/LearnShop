@@ -35,13 +35,13 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
-    Route::prefix('admin')->group(function (){
+    Route::prefix('/admin')->group(function (){
         Route::get('/dashboard', [Dashboard::class, 'show'])->name('admin.dashboard');
-        Route::prefix('users')->group(function ()
+        Route::prefix('/users')->group(function ()
         {
-            Route::get('/', AdminUserIndex::class)->name('admin.users');
-            Route::get('{user:slug}', AdminUserShow::class)->name('admin.user.show');
-            Route::get('create', AdminUserCreate::class)->name('admin.user.create');
+            Route::get('/manage', AdminUserIndex::class)->name('admin.users');
+            Route::get('/show/{user:slug}', AdminUserShow::class)->name('admin.user.show');
+            Route::get('/create', AdminUserCreate::class)->name('admin.user.create');
         }
         );
         Route::resources([

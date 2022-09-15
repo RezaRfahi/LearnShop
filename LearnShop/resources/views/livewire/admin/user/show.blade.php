@@ -16,7 +16,9 @@
 {{--                                    <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>--}}
 {{--                                    <button class="btn btn-primary">Follow</button>--}}
 {{--                                    <button class="btn btn-outline-primary">Message</button>--}}
-                                    <button wire:click="deletePhoto()" class="btn btn-outline-primary">حذف تصویر</button>
+                                    <button wire:click="deletePhoto()" class="btn btn-outline-primary" @disabled($user->image_path=='')>
+                                        حذف تصویر
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +55,7 @@
                                     <h6 class="mb-0">نام</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value={{ $user->name }}>
+                                    <input type="text" class="form-control" name="name" value={{ $user->name }}>
                                 </div>
                             </div>
                             <hr>
@@ -62,7 +64,7 @@
                                     <h6 class="mb-0">ایمیل</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value={{ $user->email }}>
+                                    <input type="email" name="email" class="form-control" value={{ $user->email }}>
                                 </div>
                             </div>
                             <hr>
@@ -71,7 +73,7 @@
                                     <h6 class="mb-0">تلفن</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" value={{ $user->phone_number }}>
+                                    <input type="tel" class="form-control" name="phone" value={{ $user->phone_number }}>
                                 </div>
                             </div>
                             <div class="row">

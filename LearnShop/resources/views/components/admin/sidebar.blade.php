@@ -26,19 +26,19 @@
                 <li class="nav-item has-treeview menu-open">
                   <ul class="nav nav-treeview">
                     <li class="nav-item">
-                      <a href="{{route('admin.dashboard')}}" class="nav-link {{request()->routeIs('admin.dashboard')? 'active' : ''}}" >
+                        <x-side-bar-item href="{{route('admin.dashboard')}}" :active="request()->routeIs('admin.dashboard')">
                         <i class="fa fa-circle-o nav-icon"></i>
                         <p>داشبورد</p>
-                      </a>
+                        </x-side-bar-item>
                     </ul>
                 </li>
                 <li class="nav-item">
-                  <a href="{{route('admin.users')}}" class="nav-link {{request()->routeIs('admin.users')? 'active' : ''}}">
+                  <x-side-bar-item href="{{route('admin.users')}}" :active="request()->routeIs('admin.users')">
                     <i class="nav-icon fa fa-user"></i>
                     <p>
                       کاربران
                     </p>
-                  </a>
+                  </x-side-bar-item>
                 </li>
                 <li class="nav-item has-treeview">
                   <a href="#" class="nav-link">

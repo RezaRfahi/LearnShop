@@ -47,7 +47,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
-        'phone' => RawPhoneNumberCast::class.':IR',
+        'phone_number' => RawPhoneNumberCast::class.':IR',
         'email_verified_at' => 'datetime',
         'level' => UserLevel::class
     ];
