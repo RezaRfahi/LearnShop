@@ -4,7 +4,6 @@ namespace App\Models;
 
 use App\enums\UserLevel;
 use Cviebrock\EloquentSluggable\Sluggable;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -13,6 +12,7 @@ use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
 use Laravel\Scout\Searchable;
+use Propaganistas\LaravelPhone\Casts\RawPhoneNumberCast;
 
 
 class User extends Authenticatable
@@ -47,7 +47,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
-        'phone' => RawPhoneNumberCast::class.':IR',
+        'phone_number' => RawPhoneNumberCast::class.':IR',
         'email_verified_at' => 'datetime',
         'level' => UserLevel::class
     ];

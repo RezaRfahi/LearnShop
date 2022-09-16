@@ -6,6 +6,11 @@
     <title>پنل مدیریت</title>
 
     @livewireStyles
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <x-livewire-alert::scripts />
+    <x-livewire-alert::flash />
+
+
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +34,7 @@
 </head>
 <body class="hold-transition sidebar-mini">
 
-    <div class="wrapper">
+       <div class="wrapper">
 
     <!-- Navbar -->
         <x-admin.navbar />
@@ -53,11 +58,17 @@
                                 </div><!-- /.row -->
                             </div><!-- /.container-fluid -->
                         </div>
+                        <div>
+                            @if (session()->has('message'))
+                                <div class="alert alert-success">
+                                    {{ session('message') }}
+                                </div>
+                            @endif
+                        </div>
                         <main>
                 {{ $slot }}
                         </main>
                     </div>
-
             </div>
         </section>
         <!-- /.content-wrapper -->
