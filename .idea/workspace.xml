@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/components/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/components/admin/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Show.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,23 +179,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PHP\Laravel\LearnShop\LearnShop\app\Http\Controllers\web\Admin" />
@@ -218,7 +221,8 @@
       <workItem from="1662997314239" duration="9917000" />
       <workItem from="1663015477062" duration="3579000" />
       <workItem from="1663077608292" duration="3483000" />
-      <workItem from="1663081700846" duration="12874000" />
+      <workItem from="1663081700846" duration="18059000" />
+      <workItem from="1663148802473" duration="16919000" />
     </task>
     <servers />
   </component>
