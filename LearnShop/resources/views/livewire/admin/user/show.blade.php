@@ -26,7 +26,7 @@
                     <div class="card mt-3">
                         <div class="card-body">
                         <h6 class="d-flex align-items-center">دوره های ثبت نام شده</h6>
-                        {{$user_purchase=$user->userCourses()->paginate()}}
+                        {{$user_purchase=$user->userCourses()->paginate(5)}}
                         <ul class="list-group list-group-flush">
                             @forelse($user_purchase as $purchase)
                             <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
@@ -55,7 +55,7 @@
                                     <h6 class="mb-0">نام</h6>
                                 </div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="text" class="form-control" name="name" value={{ $user->name }}>
+                                    <input type="text" class="form-control" name="name" value='{{ $user->name }}'>
                                 </div>
                             </div>
                             <hr>
@@ -79,17 +79,20 @@
                             <div class="row">
                                 <div class="col-sm-3"></div>
                                 <div class="col-sm-9 text-secondary">
-                                    <input type="button" class="btn btn-primary px-4" value="Save Changes">
+                                    <input type="button" class="btn btn-primary px-4" value="ذخیره">
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="card mb-3">
+                    <livewire:admin.user.reset-password :user="$user" />
                     </div>
                     <div class="row gutters-sm">
                         <div class="col-sm-6 mb-3">
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h6 class="d-flex align-items-center mb-3">مقاله های منتشر شده</h6>
-                                    {!! $user_aticles = $user->articles()->paginate(3) !!}
+                                    {!! $user_aticles = $user->articles()->paginate(2) !!}
                                     <ul class="list-group list-group-flush">
                                     @forelse($user_aticles as $article)
                                             <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
@@ -112,9 +115,9 @@
                         </div>
                         <div class="col-sm-6 mb-3">
                             <div class="card h-100">
-                                {!! $user_courses = $user->courses()->paginate(3) !!}
                                 <div class="card-body">
                                     <h6 class="d-flex align-items-center mb-3">دوره های منتشر شده</h6>
+                                    {!! $user_courses = $user->courses()->paginate(2) !!}
                                     <ul class="list-group list-group-flush">
                                         @forelse($user_courses as $course)
                                             <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">

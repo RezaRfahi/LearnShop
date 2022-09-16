@@ -3,12 +3,16 @@
 namespace App\Http\Livewire\Admin\User;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Livewire\Component;
 
 class Show extends Component
 {
-
     public User $user;
+
+    protected $listeners=[
+        'resetPage' => 'resetPage'
+    ];
 
     public function deletePhoto()
     {

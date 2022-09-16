@@ -40,7 +40,7 @@ class Create extends Component
                 'password' => $this->password
             ]
         );
-        session()->flash('success', 'کاربر با موفقیت ایجاد شد');
+        $this->alert('success', 'کاربر با موفقیت ایجاد شد');
         $this->redirectRoute('admin.users');
 
     }
