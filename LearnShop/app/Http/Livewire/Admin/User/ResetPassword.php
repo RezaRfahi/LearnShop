@@ -26,11 +26,10 @@ class ResetPassword extends Component
         $this->validate([
             'password' => 'required||string||min:8'
         ]);
-//        $this->user->forceFill([
-//            'password' => Hash::make($this->password),
-//        ])->save();
+        $this->user->forceFill([
+            'password' => Hash::make($this->password),
+        ])->save();
         $this->alert('success', 'پسورد با موفقیت تغییر یافت', ['position' => 'center']);
-        $this->redirectRoute('admin.users');
     }
 
 

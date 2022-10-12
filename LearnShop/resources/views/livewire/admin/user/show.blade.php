@@ -16,7 +16,7 @@
 {{--                                    <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>--}}
 {{--                                    <button class="btn btn-primary">Follow</button>--}}
 {{--                                    <button class="btn btn-outline-primary">Message</button>--}}
-                                    <button wire:click="deletePhoto()" class="btn btn-outline-primary" @disabled($user->image_path=='')>
+                                    <button wire:click="deletePhoto()" class="btn btn-outline-primary" @disabled($user->profile_photo_path=='')>
                                         حذف تصویر
                                     </button>
                                 </div>
