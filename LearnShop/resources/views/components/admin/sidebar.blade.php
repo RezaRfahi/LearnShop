@@ -41,68 +41,12 @@
                   </x-side-bar-item>
                 </li>
                 <li class="nav-item has-treeview">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fa fa-pie-chart"></i>
-                    <p>
-                      چارت‌ها
-                      <i class="right fa fa-angle-left"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                      <a href="pages/charts/chartjs.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>نمودار ChartJS</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="pages/charts/flot.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>نمودار Flot</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="pages/charts/inline.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>نمودار Inline</p>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item has-treeview">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fa fa-tree"></i>
-                    <p>
-                      اشیای گرافیکی
-                      <i class="fa fa-angle-left right"></i>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                      <a href="pages/UI/general.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>عمومی</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="pages/UI/icons.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>آیکون‌ها</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="pages/UI/buttons.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>دکمه‌ها</p>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="pages/UI/sliders.html" class="nav-link">
-                        <i class="fa fa-circle-o nav-icon"></i>
-                        <p>اسلایدر‌ها</p>
-                      </a>
-                    </li>
-                  </ul>
+                    <x-side-bar-item href="{{route('admin.articles')}}" :active="request()->routeIs('admin.articles')">
+                        <i class="nav-icon fa fa-user"></i>
+                        <p>
+                            مقالات
+                        </p>
+                    </x-side-bar-item>
                 </li>
                 <li class="nav-item has-treeview">
                   <a href="#" class="nav-link">
