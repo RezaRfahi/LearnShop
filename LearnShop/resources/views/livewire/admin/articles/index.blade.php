@@ -3,6 +3,7 @@
         <h1 class="m-0 text-dark">مدیریت مقالات</h1>
     </x-slot>
     <div class="container">
+
         <div class="col-sm-12 mb-2">
             <button wire:click="" class="btn btn-info " target="__blank">افزودن مقاله</button>
         </div>

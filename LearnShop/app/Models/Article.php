@@ -49,7 +49,6 @@ class Article extends Model implements Viewable
         return
             [
                 'title' => $this->title,
-                'user' => $this->user(),
             ];
     }
 
