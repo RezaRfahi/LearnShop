@@ -16,7 +16,7 @@ class Index extends Component
 
     public function addArticleRedirect()
     {
-//        return $this->redirectRoute('admin.article.create');
+        return $this->redirectRoute('admin.article.create');
     }
 
     public function render()

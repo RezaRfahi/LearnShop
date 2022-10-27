@@ -1,3 +1,5 @@
 <div>
-    {{-- Because she competes with no one, no one can compete with her. --}}
+    <x-slot name="title">
+        <h1 class="m-0 text-dark">افزودن مقاله</h1>
+    </x-slot>
 </div>
