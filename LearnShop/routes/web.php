@@ -10,6 +10,7 @@ use App\Http\Livewire\Admin\User\Index as AdminUserIndex;
 use App\Http\Livewire\Admin\User\Show as AdminUserShow;
 use App\Http\Livewire\Admin\User\Create as AdminUserCreate;
 use App\Http\Livewire\Admin\Articles\Index as AdminArticleIndex;
+use App\Http\Livewire\Admin\Articles\Create as AdminArticleCreate;
 use Illuminate\Support\Facades\Http;
 
 /*
@@ -47,6 +48,7 @@ Route::middleware([
         );
         Route::prefix('/articles')->group(function (){
             Route::get('/manage', AdminArticleIndex::class)->name('admin.articles');
+            Route::get('/create', AdminArticleCreate::class)->name('admin.article.create');
         });
         Route::resources([
 //            'user' => AdminUserController::class,

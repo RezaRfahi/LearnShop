@@ -5,7 +5,7 @@
     <div class="container">
 
         <div class="col-sm-12 mb-2">
-            <button wire:click="" class="btn btn-info " target="__blank">افزودن مقاله</button>
+            <button wire:click="addArticleRedirect" class="btn btn-info " target="__blank">افزودن مقاله</button>
         </div>
         <hr>
         <x-input-text  wire:model.debounce.500ms="search" name="search" value="{{old('search')}}"

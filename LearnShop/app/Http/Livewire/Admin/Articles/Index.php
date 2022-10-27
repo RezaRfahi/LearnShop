@@ -14,6 +14,11 @@ class Index extends Component
 
     public $search = '';
 
+    public function addArticleRedirect()
+    {
+//        return $this->redirectRoute('admin.article.create');
+    }
+
     public function render()
     {
         $articles=Article::search($this->search)->paginate(10);
