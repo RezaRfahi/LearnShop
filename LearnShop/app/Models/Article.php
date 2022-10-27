@@ -44,6 +44,15 @@ class Article extends Model implements Viewable
         return 'slug';
     }
 
+    public function toSearchableArray()
+    {
+        return
+            [
+                'title' => $this->title,
+                'user' => $this->user(),
+            ];
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
