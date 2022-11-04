@@ -66,7 +66,7 @@
                             @endif
                         </div>
                         <main>
-                {{ $slot }}
+                            {{ $slot }}
                         </main>
                     </div>
             </div>

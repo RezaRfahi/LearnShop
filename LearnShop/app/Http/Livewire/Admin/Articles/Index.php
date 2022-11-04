@@ -13,6 +13,13 @@ class Index extends Component
     protected $paginationTheme = 'bootstrap';
 
     public $search = '';
+    public $order='';
+    public $filter_enabled=false;
+
+    public function changeFilter()
+    {
+        $this->filter_enabled=$this->filter_enabled ? false  : true;
+    }
 
     public function addArticleRedirect()
     {
@@ -21,8 +28,9 @@ class Index extends Component
 
     public function render()
     {
-        $articles=Article::search($this->search)->paginate(10);
-        return view('livewire.admin.articles.index', compact('articles'))
+        $headers=['عنوان', 'منتشرکننده', 'تاریخ انتشار', 'بازدید', 'لایک', 'نظر'];
+        $articles=Article::search($this->search)->orderBy($this->order)->paginate(10);
+        return view('livewire.admin.articles.index', compact('articles','headers'))
             ->layout('components.admin.app');
     }
 }
