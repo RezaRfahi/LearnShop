@@ -11,7 +11,7 @@
         <div class>
             <x-input-text  wire:model.debounce.500ms="search" name="search" value="{{old('search')}}"
                        class="w-1/2 mb-2" placeholder="جستجو..."/>
-            <button wire:click="changeFilter" class="btn-light mt-2"></i>فیلتر</button>
+            <button wire:click="changeFilter" class="btn-light mt-2"></i>جستجوی پیشرفته</button>
         </div>
         @if($filter_enabled)
         <x-filter-box>
@@ -43,9 +43,7 @@
             </x-filter-box-item>
         </x-filter-box>
         @endif
-
-        <div class="relative overflow-x-auto shadow-md rounded-lg">
-        <table class="w-full text-sm text-left text-gray-500">
+        <x-information.table>
             <thead class="text-xs text-gray-700">
             <tr>
                 <th><div class="py-3 px-6 flex items-center"></div></th>
@@ -86,11 +84,10 @@
                 </tr>
             @endforelse
             </tbody>
-        </table>
-
+        </x-information.table>
         <div class="d-flex mt-3">
             {!! $articles->links() !!}
         </div>
-        </div>
+
     </div>
 </div>
