@@ -42,7 +42,7 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <x-side-bar-item href="{{route('admin.articles')}}" :active="request()->routeIs('admin.articles')">
-                        <i class="nav-icon fa fa-user"></i>
+                        <i class="nav-icon fa fa-book"></i>
                         <p>
                             مقالات
                         </p>

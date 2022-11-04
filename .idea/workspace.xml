@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c56265-3864-4af0-b5a0-56fe6cda307d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/resources/views/components/side-bar-item.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearnSohp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blade.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Http/Livewire/Admin/User/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/lang/fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/lang/fa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/components/admin/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/components/admin/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/components/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/components/admin/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/livewire/admin/user/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnShop/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/resources/views/navigation-menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnShop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/LearnShop/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,6 +166,7 @@
       <path value="$PROJECT_DIR$/LearnShop/vendor/symfony/options-resolver" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/http-interop/http-factory-guzzle" />
       <path value="$PROJECT_DIR$/LearnShop/vendor/algolia/algoliasearch-client-php" />
+      <path value="$PROJECT_DIR$/LearnShop/vendor/jantinnerezo/livewire-alert" />
     </include_path>
   </component>
   <component name="ProjectId" id="2EQy9aDvGqsqHjHS1KlZYaYvOor" />
@@ -241,6 +222,8 @@
       <workItem from="1663081700846" duration="18059000" />
       <workItem from="1663148802473" duration="16919000" />
       <workItem from="1663319063157" duration="450000" />
+      <workItem from="1666947158404" duration="1781000" />
+      <workItem from="1667589177410" duration="118000" />
     </task>
     <servers />
   </component>

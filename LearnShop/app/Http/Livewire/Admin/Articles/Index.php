@@ -26,6 +26,11 @@ class Index extends Component
         return $this->redirectRoute('admin.article.create');
     }
 
+    public function deleteArticle(Article $article)
+    {
+        $article->delete();
+    }
+
     public function render()
     {
         $headers=['عنوان', 'منتشرکننده', 'تاریخ انتشار', 'بازدید', 'لایک', 'نظر'];

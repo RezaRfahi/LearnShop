@@ -74,7 +74,7 @@
                     <td>
                         <div class="py-3 px-6 flex items-center cursor-pointer">
                         <button wire:click="" class="btn-outline-success m-3">ویرایش</button>
-                        <button wire:click="" class="btn-outline-danger m-3">حذف</button>
+                        <button wire:click="deleteArticle({{ $article }})" class="btn-outline-danger m-3">حذف</button>
                         </div>
                     </td>
                 </tr>
