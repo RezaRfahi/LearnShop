@@ -21,15 +21,15 @@ class Index extends Component
         $this->filter_enabled=$this->filter_enabled ? false  : true;
     }
 
-    public function addArticleRedirect()
-    {
-        return $this->redirectRoute('admin.article.create');
-    }
-
-    public function deleteArticle(Article $article)
-    {
-        $article->delete();
-    }
+//    public function addArticleRedirect()
+//    {
+//        return $this->redirectRoute('admin.article.create');
+//    }
+//
+//    public function deleteArticle(Article $article)
+//    {
+//        $article->delete();
+//    }
 
     public function render()
     {
