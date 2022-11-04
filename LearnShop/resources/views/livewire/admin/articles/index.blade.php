@@ -44,44 +44,38 @@
         </x-filter-box>
         @endif
         <x-information.table>
-            <thead class="text-xs text-gray-700">
+            <x-slot name="tableHead">
             <tr>
-                <th><div class="py-3 px-6 flex items-center"></div></th>
+                <x-information.table-head-cell/>
                 @foreach($headers as $header)
-                <th>
-                    <div class="py-3 px-6 flex items-center cursor-pointer">
+                    <x-information.table-head-cell>
                         {{ $header }}
-                    </div>
-                </th>
+                    </x-information.table-head-cell>
                 @endforeach
-                <th><div class="py-3 px-6 flex items-center"></div></th>
+                <x-information.table-head-cell/>
             </tr>
-            </thead>
+            </x-slot>
             <tbody>
             @forelse($articles as $article)
-                <tr class="bg-white border-b hover:bg-gray-50">
+                <x-information.table-row>
                     <td>
-                            <div class="image pr-2">
-                                <img class="h-8 w-8 rounded-full object-cover" src="{{ $article->image_path }}" alt="{{ $article->name }}" />
-                            </div>
+                        <x-information.table-cell-pic src="{{ $article->image_path }}" alt="{{ $article->name }}" />
                     </td>
-                    <td> <div class="py-3 px-6 flex items-center cursor-pointer">{{ $article->title }}</div></td>
-                    <td> <div class="py-3 px-6 flex items-center cursor-pointer">{{ $article->user->name }}</div></td>
-                    <td> <div class="py-3 px-6 flex items-center cursor-pointer">{{ $article->created_at }}</div></td>
-                    <td> <div class="py-3 px-6 flex items-center cursor-pointer">{{ $article->view_count }}</div></td>
-                    <td> <div class="py-3 px-6 flex items-center cursor-pointer">{{ $article->like_count }}</div></td>
-                    <td> <div class="py-3 px-6 flex items-center cursor-pointer">{{ $article->commentCount }}</div></td>
-                    <td>
-                        <div class="py-3 px-6 flex items-center cursor-pointer">
+                    <x-information.table-cell>{{ $article->title }}</x-information.table-cell>
+                    <x-information.table-cell>{{ $article->user->name }}</x-information.table-cell>
+                    <x-information.table-cell>{{ $article->created_at }}</x-information.table-cell>
+                    <x-information.table-cell>{{ $article->view_count }}</x-information.table-cell>
+                    <x-information.table-cell>{{ $article->like_count }}</x-information.table-cell>
+                    <x-information.table-cell>{{ $article->commentCount }}</x-information.table-cell>
+                    <x-information.table-cell>
                         <button wire:click="" class="btn-outline-success m-3">ویرایش</button>
                         <button wire:click="deleteArticle({{ $article }})" class="btn-outline-danger m-3">حذف</button>
-                        </div>
-                    </td>
-                </tr>
+                    </x-information.table-cell>
+                </x-information.table-row>
             @empty
-                <tr class="bg-white border-b hover:bg-gray-50">
+                <x-information.table-row>
                     <td> هیچ موردی یافت نشد</td>
-                </tr>
+                </x-information.table-row>
             @endforelse
             </tbody>
         </x-information.table>
